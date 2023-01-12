@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <header>
+      <h1>Felipe Lemos</h1>
+    </header>
+    <main>
+      <div class="calculadora">
+        <h2>Calculadora</h2>
+        <p class="resultado"></p>
+        <table>
+          <tr>
+            <td><button class="botao" data-clear>C</button></td>
+            <td><button class="botao" data-del>DEL</button></td>
+            <td><button class="botao" data-dividedby>/</button></td>
+            <td><button class="botao" data-times>*</button></td>
+          </tr>
+
+          <tr>
+            <td><button class="botao" data-btn7>7</button></td>
+            <td><button class="botao" data-btn8>8</button></td>
+            <td><button class="botao" data-btn9>9</button></td>
+            <td><button class="botao" data-minus>-</button></td>
+          </tr>
+
+          <tr>
+            <td><button class="botao" data-btn4>4</button></td>
+            <td><button class="botao" data-btn5>5</button></td>
+            <td><button class="botao" data-btn6>6</button></td>
+            <td><button class="botao" data-plus>+</button></td>
+          </tr>
+
+          <tr>
+            <td><button class="botao" data-btn1>1</button></td>
+            <td><button class="botao" data-btn2>2</button></td>
+            <td><button class="botao" data-btn3>3</button></td>
+            <td rowspan="2">
+              <button class="botao" id="btnigual" data-equals>=</button>
+            </td>
+          </tr>
+
+          <tr>
+            <td colspan="2">
+              <button class="botao" id="btn0" data-btn0>0</button>
+            </td>
+            <td><button class="botao" data-dot>.</button></td>
+          </tr>
+        </table>
+      </div>
+    </main>
+  </body>
+  <script src="main.js"></script>
+</html>
