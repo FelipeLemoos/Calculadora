@@ -117,3 +117,5 @@ del.addEventListener("click", () => {
 equals.addEventListener("click", () => {
   calcular();
 });
+
+// teste
